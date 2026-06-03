@@ -6,13 +6,13 @@ Aplicación web simple de lista de tareas con operaciones **CRUD** (Crear, Leer,
 Desarrollada como parte de la actividad integradora de la materia _Servicios Web_.  
 Permite agregar tareas, marcarlas como completadas y eliminarlas, todo mediante peticiones **AJAX** sin recargar la página.
 
-## 🔗 Enlace a la aplicación publica en la web (100% funcional)
+## Enlace a la aplicación publica en la web (100% funcional)
 
 [https://todo-list-app-sf9h.onrender.com](https://todo-list-app-sf9h.onrender.com)
 
 ---
 
-## 🛠️ Stack tecnológico
+## Stack tecnológico
 
 | Tecnología        | Uso                                    |
 | ----------------- | -------------------------------------- |
@@ -22,13 +22,11 @@ Permite agregar tareas, marcarlas como completadas y eliminarlas, todo mediante 
 | **Mongoose**      | ODM para modelar los datos             |
 | **EJS**           | Motor de plantillas (vista principal)  |
 | **jQuery**        | Manipulación del DOM y peticiones AJAX |
-| **HTML5 / CSS3**  | Estructura y estilos responsivos       |
+| **HTML5 / CSS3**  | Estructura y estilos                   |
 
 ---
 
-## 📦 Instalación local (Getting Started)
-
-Sigue estos pasos para ejecutar la aplicación en tu máquina.
+## Instalación local
 
 ### 1. Clonar el repositorio
 
@@ -52,7 +50,7 @@ MONGO_URI=mongodb+srv://<usuario>:<contraseña>@cluster0.xxxxx.mongodb.net/todol
 PORT=3000
 ```
 
-> ⚠️ Obtén tu cadena de conexión desde [MongoDB Atlas](https://www.mongodb.com/atlas).  
+> ⚠️ Obtén tu cadena de conexión gratis desde [MongoDB Atlas](https://www.mongodb.com/atlas).  
 > Si prefieres MongoDB local, cambia la URI a `mongodb://localhost:27017/todolist`.
 
 ### 4. Ejecutar la aplicación
@@ -73,7 +71,7 @@ Ve a `http://localhost:3000`
 
 ---
 
-## 🧪 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 todo-list-app/
@@ -85,14 +83,14 @@ todo-list-app/
 ├── models/            # Modelo de datos Mongoose
 │   └── Task.js
 ├── server.js          # Servidor Express y rutas API
-├── .env               # Variables de entorno (no se suben a GitHub)
+├── .env               # Variables de entorno (no se sube a GitHub)
 ├── .gitignore
 └── package.json
 ```
 
 ---
 
-## 📡 API endpoints
+## API endpoints
 
 | Método | Endpoint         | Descripción                    |
 | ------ | ---------------- | ------------------------------ |
@@ -103,6 +101,8 @@ todo-list-app/
 
 ---
 
-## 🖥️ Demostración
+## Demostración
 
 ![Demostración de la lista de tareas](./demo.gif)
+
+> Pruebalo en vivo aqui: [https://todo-list-app-sf9h.onrender.com](https://todo-list-app-sf9h.onrender.com)
