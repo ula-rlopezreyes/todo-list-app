@@ -18,7 +18,10 @@ app.set("views", path.join(__dirname, "views"));
 
 // Conexión a MongoDB Atlas
 mongoose
-  .connect(process.env.MONGO_URI)
+  .connect(process.env.MONGO_URI, {
+    serverSelectionTimeoutMS: 30000, // Aumenta el timeout a 30 segundos
+    socketTimeoutMS: 45000, // Timeout para operaciones de socket
+  })
   .then(() => console.log("✅ Conectado a MongoDB Atlas"))
   .catch((err) => console.error("❌ Error de conexión:", err));
 
