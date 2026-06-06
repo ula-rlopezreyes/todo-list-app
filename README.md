@@ -10,13 +10,9 @@ Permite agregar tareas, marcarlas como completadas y eliminarlas, todo mediante 
 
 [https://todo-list-app-sf9h.onrender.com](https://todo-list-app-sf9h.onrender.com)
 
----
-
 ## Demostración
 
 ![Demostración de la lista de tareas](./demo.gif)
-
-> Pruebalo en vivo aqui: [https://todo-list-app-sf9h.onrender.com](https://todo-list-app-sf9h.onrender.com)
 
 ---
 
@@ -106,3 +102,6 @@ todo-list-app/
 | POST   | `/api/tasks`     | Crear una nueva tarea          |
 | PUT    | `/api/tasks/:id` | Actualizar estado (completado) |
 | DELETE | `/api/tasks/:id` | Eliminar una tarea             |
+
+
+> Pruebalo en vivo aqui: [https://todo-list-app-sf9h.onrender.com](https://todo-list-app-sf9h.onrender.com)
